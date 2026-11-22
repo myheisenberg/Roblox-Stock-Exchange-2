@@ -1,7 +1,6 @@
-local ok, err = pcall(function()
-    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/myheisenberg/Roblox-Stock-Exchange-2/main/main.luau?t=" .. tostring(os.time())))()
-end)
+-- ============================================================
+--  Zynex Hub | Official Universal Loader
+--  Developer: zynexdev
+-- ============================================================
 
-if not ok then
-    warn("[Loader Error]:", err)
-end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/myheisenberg/Zynex-Hub/main/loader.luau"))()
